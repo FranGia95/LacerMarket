@@ -1,7 +1,7 @@
 <h1>Questa è la nostra HomePage</h1>
 
-<p><a href="http://lacerba.io">Click here</a> to find ot more</p>
-<p> <%= link_to "click here", about_path %> to find out more </p>
+<p><a href="http://lacerba.io" target="_blank">Click here</a> to find ot more</p>
+<p> <%= link_to "click here", about_path, target: "_blank" %> to find out more </p>
 
 <%# Menu %>
 <p> <%= link_to "LacerMrkt", root_path %></p>
@@ -24,10 +24,10 @@
 <p> <%= link_to "Plus3", root_path %></p>
 
 <%# Footer %>
-<p> Copyright: <%= link_to "FranGia95", root_path %></p>
+<p> Copyright: <a href="mailto:frangia95@gmail.com" target="_blank">FranGia95"</p>
 
-<p> <%= link_to "Pinterest", root_path %></p>
-<p> <%= link_to "Facebook", root_path %></p>
-<p> <%= link_to "Instagram", root_path %></p>
+<p> <%= link_to "Pinterest", "https://www.pinterest.com.au/swopexchange/", target: "_blank" %></p>
+<p> <%= link_to "Facebook", "https://www.facebook.com/thinktwicesecondhand/?ref=br_rs", target: "_blank" %></p>
+<p> <%= link_to "Instagram", "https://www.instagram.com/buffaloexchange/", target: "_blank" %></p>
 
 <p> <%= link_to "About", about_path %></p>
