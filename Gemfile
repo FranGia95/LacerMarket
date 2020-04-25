@@ -24,6 +24,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'materialize-sass', '~> 1.0.0'
 
+gem 'devise'
 
 group :development, :test do
 
